@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MultiTenantProject.Data\MultiTenantProject.Data.csproj" />
+    <ProjectReference Include="..\MultiTenantProject.Model\MultiTenantProject.Model.csproj" />
+    <ProjectReference Include="..\MultiTenantProject.ViewModel\MultiTenantProject.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>

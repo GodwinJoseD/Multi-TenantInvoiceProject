@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="MultiTenantProject.Core/MultiTenantProject.Core.csproj" />
+  <Project Path="MultiTenantProject.Data/MultiTenantProject.Data.csproj" />
+  <Project Path="MultiTenantProject.Model/MultiTenantProject.Model.csproj" />
+  <Project Path="MultiTenantProject.ViewModel/MultiTenantProject.ViewModel.csproj" />
+  <Project Path="MultiTenantProject/MultiTenantProject.API.csproj" />
+  <Project Path="MultiTenantServices/MultiTenantProject.BLL.csproj" />
+</Solution>
